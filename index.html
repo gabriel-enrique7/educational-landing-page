@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Uma Landing Page de um site educacional">
+        <title>Landing Page</title>
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/mobile.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <h1 class="cabecalho-titulo">Gabriel Enrique</h1>
+
+            <nav class="cabecalho-menu">
+                <a href="#" class="cabecalho-menu-item">Home</a>
+                <a href="#" class="cabecalho-menu-item">Contato</a>
+                <a href="#" class="cabecalho-menu-item cabecalho-menu-item-login">Login</a>
+                <a href="#form" class="cabecalho-menu-item cabecalho-menu-item-cadastrar">Cadastre-se</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="conteudo-principal">
+
+                <div class="conteudo-principal-content">
+                    <h2 class="conteudo-principal-content-titulo">Venha aprender conosco!</h1>
+                    <p class="conteudo-principal-content-descricao">Com o nosso sistema, você poderia se organizar.</p>
+                    <a href="#formulario"><button class="conteudo-principal-content-botao">Cadastre-se Gratuitamente</button></a>
+                </div>
+
+                <img class="conteudo-principal-imagem" src="./img/imagem-estudo.svg" alt="Imagem de Ilustração de Estudo">
+
+            </section>
+
+            <section class="conteudo-secundario">
+                    
+                    <form class="conteudo-secundario-formulario" id="form">
+
+                            <label class="conteudo-secundario-formulario-titulo">Cadastre-se</label>
+
+                            <div class="conteudo-secundario-form-control">
+                                <input type="text" required>
+                                <label>Nome</label>
+                                <img src="./img/success-icon.svg" class="img-success" alt="Ícone de sucesso">
+                                <img src="./img/error-icon.svg" class="img-error" alt="Ícone de erro">
+
+                                <small></small>
+                            </div>
+
+                            <div class="conteudo-secundario-form-control">
+                                <input type="email" required>
+                                <label>Email</label>
+                                <img src="./img/success-icon.svg" class="img-success" alt="Ícone de sucesso">
+                                <img src="./img/error-icon.svg" class="img-error" alt="Ícone de erro">
+
+                                <small></small>
+                            </div>
+
+                            <div class="conteudo-secundario-form-control">
+                                <input type="password" required>
+                                <label>Senha</label>
+                                <img src="./img/success-icon.svg" class="img-success" alt="Ícone de sucesso">
+                                <img src="./img/error-icon.svg" class="img-error" alt="Ícone de erro">
+
+                                <small></small>
+                            </div>
+
+                            <div class="conteudo-secundario-form-control">
+                                <input type="password" required>
+                                <label>Confirme sua senha</label>
+                                <img src="./img/success-icon.svg" class="img-success" alt="Ícone de sucesso">
+                                <img src="./img/error-icon.svg" class="img-error" alt="Ícone de erro">
+
+                                <small></small>
+                            </div>
+
+                            <div class="conteudo-secundario-formulario-botao">
+                                <button>Enviar Formulário</button>
+                            </div>
+                            
+                    </form>
+
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <h3 class="rodape-titulo">Gabriel Enrique</h3>
+
+            <nav class="rodape-menu">
+                <a href="#" class="rodape-menu-item">Cadastre-se</a>
+                <a href="#" class="rodape-menu-item">Login</a>
+                <a href="#" class="rodape-menu-item">Home</a>
+                <a href="#" class="rodape-menu-item">Contato</a>
+            </nav>
+
+            <p class="rodape-creditos">Créditos das Ilustrações Minimalistas: <a class="rodape-creditos-link" href="https://2.flexiple.com/scale/home" target="_blank">Scale by Flexiple</a></p>
+        </footer>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
