@@ -9,7 +9,7 @@
 ## Images of Project
 
 ![CHEESE](https://user-images.githubusercontent.com/88118882/180892321-e87092d0-7059-498f-8e71-d1d0f3f6361e.jpeg)
-![CHEESE](https://user-images.githubusercontent.com/88118882/180892457-790d7610-5bfd-4bab-bbcc-8c8b6aef77e1.jpeg)
+![CHEESE](https://user-images.githubusercontent.com/88118882/180893162-801f6c0f-ab8a-43e4-8d26-26c231adbdc1.jpeg)
 
 ## How to run this project?
 ```
